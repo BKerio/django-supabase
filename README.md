@@ -17,6 +17,9 @@ cd django_supabase
 python -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
 
+django-admin startproject config .
+python manage.py startapp core
+
 pip install django psycopg2-binary python-dotenv
 
 Host: aws-0-us-east-1.pooler.supabase.com
