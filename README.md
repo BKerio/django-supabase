@@ -10,7 +10,7 @@ django_supabase/
 └── core/
     ├── models.py
     ├── views.py
-
+<!-- Setting up a new django app -->
 mkdir django_supabase
 cd django_supabase
 
@@ -22,6 +22,7 @@ python manage.py startapp core
 
 pip install django psycopg2-binary python-dotenv
 
+<!-- Supabase Credentials -->
 Host: aws-0-us-east-1.pooler.supabase.com
 Port: 6543
 Database: postgres
