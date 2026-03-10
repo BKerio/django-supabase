@@ -56,7 +56,7 @@ A professionally structured Django application integrated with **Supabase Postgr
 
 3.  **Install Dependencies**
     ```bash
-    pip install django psycopg2-binary python-dotenv
+    pip install -r requirements.txt
     ```
 
 ### Configuration
